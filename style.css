@@ -1,0 +1,409 @@
+body{
+    background-color: #ffebee;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a:link{
+    color: rgb(72, 55, 55);
+    text-decoration: none;
+
+}
+a:visited{
+    color: rgb(72, 55, 55);
+}
+a:hover{
+    color:rgb(111, 233, 255); 
+    display: inline-block;
+}
+.main-container{
+    width: 100%;
+}
+
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color:rgb(242, 158, 158);
+    height: 70px;
+}
+.menu{
+    min-width: 200px;
+    color: rgb(72, 55, 55);
+    font-size: 2em;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 120px;
+}
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+
+}
+#banner-image{
+    width: 100%;
+    opacity: 0.85;
+}
+.banner-title{
+    position: absolute;
+    top:68%;
+    left:20%;
+    font-size:3.5em;
+}
+.banner-subtitle{
+    position: absolute;
+    top:83%;
+    left:20%;
+    font-size: 1.8em;
+}
+.skills-heading{
+    display: flex;
+    widows: 100%;
+    height: 80px;
+    color: black;
+    font-size: 2.5em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.skill-title{
+    margin-left: 12%;
+    margin-top: 25px;
+}
+.skill-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 200px;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill-container2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 200px;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+}
+.skill2{
+    display: flex;
+    width: 100%;
+    margin-top: 35px;
+    justify-content: center;
+}
+.skill3{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.skill4{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    justify-content: center;
+}
+.skill5{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 80px;
+}
+.skill6{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.skill7{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+    margin-right: 45px;
+}
+#image1{
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
+}
+#image2{
+    width: 130px;
+    height: 130px;
+    margin-right: 25px;
+}
+#image3{
+    width: 135px;
+    height: 135px;
+    margin-right: 25px;
+}
+#image4{
+    width: 150px;
+    height: 180px;
+    margin-right: 25px;
+}
+#image5{
+    width: 120px;
+    height: 125px;
+    margin-right: 25px;
+}
+#image6{
+    width: 160px;
+    height: 170px;
+    margin-right: 25px;
+}
+#image7{
+    width: 130px;
+    height: 130px;
+    margin-right: 25px;
+}
+#skill-text1{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+#skill-text2{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 40px;
+    font-weight: bold;
+}
+#skill-text3{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 52px;
+    font-weight: bold;
+}
+#skill-text4{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+#skill-text5{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+#skill-text6{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 65px;
+    font-weight: bold;
+}
+#skill-text7{
+    color: black;
+    font-size: 1.8em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.portfolio-heading{
+    display: flex;
+    widows: 100%;
+    height: 80px;
+    margin-top: 25px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.portfolio-title{
+    margin-left: 12%;
+    margin-top: 15px;
+}
+.portfolio-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 55px;
+}
+.image-container{
+    display:flex;
+    flex-direction: column;
+}
+#portfolio-img{
+    height: 550px;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.portfolio-description{
+    margin-left: 20px;
+    margin-right: 120px;
+}
+.portfolio-name{
+    font-size: 2em;
+    margin-left: 60px;
+}
+.portfolio-info{
+    font-size: 1.2em;
+    margin-left: 60px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 10px;
+}
+hr{
+    width:80%;
+    align-self: flex-start;
+}
+ul{
+    align-self: flex-start;
+}
+.project-duration{
+    text-align: end;
+    font-style: italic;
+}
+
+.education-container{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+    margin-left: auto;
+}
+.schoolname{
+    margin-top:10px;
+    font-size: 1.4em;
+    margin-left: 170px;
+}
+.info{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.degree-info{
+    font-size: 1.1em;
+    margin-left: 150px;
+    color: rgb(120, 120, 120);
+}
+.duration{
+    font-size: 1em;
+    margin-left: 150px;
+    color: rgb(120, 120, 120);
+    padding-left: 100px;
+}
+.space{
+    margin-left: 300px;
+}
+.space1{
+    margin-left: 270px;
+}
+.space2{
+    margin-left: 20px;
+}
+.space3{
+    margin-left: 250px;
+}
+.related-course{
+    font-size: 1.1em;
+    margin-left: 170px;
+    color: rgb(120, 120, 120);
+}
+#logo-img1{
+    margin-left:150px;
+    height:50px;
+    width:140px;
+}
+#logo-img2{
+    margin-left:150px;
+    height:60px;
+    width:210px;
+    background-color: black;
+}
+.work-container{
+    display: flex;
+    flex-direction: column;
+}
+.work-heading{
+    display: flex;
+    flex-direction: row;
+    margin-top:25px;
+}
+.company-name{
+    font-size: 2em;
+    margin-left: 20px;
+    text-align: center;
+}
+.work-position{
+    color: rgb(120, 120, 120);
+    font-size:1.2em;
+    text-align: center;
+    margin-top:10px;
+    font-style: italic;
+}
+.work-duration{
+    color: rgb(120, 120, 120);
+    font-size:1.2em;
+    text-align: center;
+    margin-top:10px;
+    font-style: italic;
+}
+.work-description{
+    font-size: 1.2em;
+    margin-left: 150px;
+    color: rgb(120, 120, 120);
+}
+.contact-heading{
+    display: flex;
+    widows: 100%;
+    height: 80px;
+    margin-top: 25px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.contact-title{
+    margin-left: 12%;
+    margin-top: 25px;
+}
+.contact-container{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    height: 200px;
+    flex-direction: column;
+    margin-left: auto;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    widows: 100%;
+    width: 100%;
+    margin-left:170px;
+    justify-content: left;
+}
+#email{
+    width:50px;
+    height:50px;
+}
+#phone{
+    width:50px;
+    height:50px;
+}
+#linkedin{
+    width:50px;
+    height:50px;
+}
+#location{
+    width:50px;
+    height:50px;
+}
+.contact-text{
+    margin-left:10px;
+    margin-top: 8px;
+    color: rgb(72, 55, 55);
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-content: left;
+}
+.footer-container{
+    display: flex;
+    width:100%;
+    position: relative;
+
+}
