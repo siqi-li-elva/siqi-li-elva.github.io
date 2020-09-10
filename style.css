@@ -1,11 +1,12 @@
 body{
     background-color: #ffebee;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    @font-face {
+        font-family: 'Comic Sans MS';
+        src: url("comic-sans-ms/comici.ttf");
+    }
 }
-@font-face {
-    font-family: 'Comic Sans MS';
-    src: url("comic-sans-ms/comici.ttf");
-}
+
 a:link{
     color: rgb(72, 55, 55);
     text-decoration: none;
@@ -38,6 +39,7 @@ a:hover{
 }
 .image-container{
     display: flex;
+    justify-content: center;
     position: relative;
     text-align: center;
 
@@ -70,6 +72,7 @@ a:hover{
 .skill-title{
     margin-left: 12%;
     margin-top: 25px;
+    margin-bottom: 10px;
 }
 .skill-container{
     display: flex;
@@ -267,13 +270,19 @@ ul{
     margin-top: 25px;
     text-align: justify;
     justify-content: center;
-    height: 200px;
+    height: 300px;
     flex-direction: column;
     margin-left: auto;
+    margin-bottom: 10px;
+}
+.school-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
 }
 .schoolname{
-    margin-top:10px;
-    font-size: 1.4em;
+    margin-top:5px;
+    font-size: 1.5em;
     margin-left: 170px;
 }
 .info{
@@ -284,12 +293,13 @@ ul{
     margin-left: 20px;
 }
 .degree-info{
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-left: 150px;
     color: rgb(120, 120, 120);
 }
 .duration{
-    font-size: 1em;
+    text-align: end;
+    font-size: 1.2em;
     margin-left: 150px;
     color: rgb(120, 120, 120);
     padding-left: 100px;
@@ -326,6 +336,8 @@ ul{
 .work-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 .work-heading{
     display: flex;
@@ -347,7 +359,7 @@ ul{
 .work-duration{
     color: rgb(120, 120, 120);
     font-size:1.2em;
-    text-align: center;
+    text-align: end;
     margin-top:10px;
     font-style: italic;
 }
