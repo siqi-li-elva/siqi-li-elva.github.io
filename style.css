@@ -389,6 +389,7 @@ ul{
     height: 200px;
     flex-direction: column;
     margin-left: auto;
+    margin-bottom: 150px;
 }
 .contact{
     display: flex;
