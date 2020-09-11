@@ -54,6 +54,14 @@ a:hover{
     left:20%;
     font-size:3.5em;
 }
+.sub-title{
+    position: absolute;
+    top:77%;
+    left:22%;
+    font-size: 1.8em;
+}
+
+
 .banner-subtitle{
     position: absolute;
     top:83%;
@@ -389,7 +397,7 @@ ul{
     height: 200px;
     flex-direction: column;
     margin-left: auto;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 .contact{
     display: flex;
