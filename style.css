@@ -286,6 +286,7 @@ ul{
 }
 .info{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: justify;
     flex-direction: row;
@@ -342,6 +343,7 @@ ul{
 .work-heading{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top:25px;
 }
 .company-name{
